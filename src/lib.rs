@@ -12,7 +12,7 @@ pub trait Sdf {
     fn dist(&self, p: &Vec3s) -> f32s;
 }
 
-/// The math prelude.
+/// The volm prelude.
 /// 
 /// Imports useful types, functions and traits.
 pub mod prelude {
