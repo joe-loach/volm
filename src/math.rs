@@ -2,6 +2,12 @@
 
 mod vec2;
 mod vec3;
+mod splat;
+mod fma;
+mod ray;
+
+pub use splat::Splattable;
+pub(crate) use fma::Fma;
 
 const LANES: usize = 16;
 
