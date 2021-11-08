@@ -28,3 +28,10 @@ pub struct Vec3s {
     /// The `z` component of the vector.
     pub z: f32s,
 }
+
+pub struct Ray {
+    /// The origin of the ray.
+    pub origin: Vec3s,
+    /// The direction the ray is travelling.
+    pub dir: Vec3s,
+}
