@@ -2,6 +2,7 @@
 
 pub extern crate ultraviolet as uv;
 
+pub mod camera;
 pub mod ray;
 
 /// Signed Distance Field.
