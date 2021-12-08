@@ -1,6 +1,6 @@
 #![feature(portable_simd)]
 
-pub mod math;
+pub extern crate ultraviolet as uv;
 
 use math::*;
 
@@ -9,12 +9,12 @@ use math::*;
 /// Used to compute the signed distance from a point in space.
 pub trait Sdf {
     /// The signed distance from point `p`.
-    fn dist(&self, p: &Vec3s) -> f32s;
+    fn dist(&self, p: &uv::Vec3x8) -> uv::f32x8;
 }
 
 /// The volm prelude.
 /// 
 /// Imports useful types, functions and traits.
 pub mod prelude {
-    pub use crate::math::*;
+    pub use crate::Sdf;
 }

@@ -4,5 +4,5 @@ version = "0.0.1"
 edition = "2021"
 
 [dependencies]
+ultraviolet = "0.8.1"
 # Simd vector types
-core_simd = { git = "https://github.com/rust-lang/portable-simd" }
