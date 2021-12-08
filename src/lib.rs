@@ -2,7 +2,7 @@
 
 pub extern crate ultraviolet as uv;
 
-use math::*;
+pub mod ray;
 
 /// Signed Distance Field.
 /// 
