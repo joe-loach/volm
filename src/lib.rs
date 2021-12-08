@@ -1,5 +1,3 @@
-#![feature(portable_simd)]
-
 pub extern crate ultraviolet as uv;
 
 pub mod camera;
