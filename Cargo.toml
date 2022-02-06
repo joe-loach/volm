@@ -4,5 +4,8 @@ version = "0.0.1"
 edition = "2021"
 
 [dependencies]
-ultraviolet = "0.8.1"
-# Simd vector types
+rayon = "1.5.1"
+ultraviolet = { version = "0.9.0", git = "https://github.com/joe-loach/ultraviolet.git" }
+
+[dev-dependencies]
+image = "0.23"
